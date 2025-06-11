@@ -1,0 +1,32 @@
+{
+  "id": "9b020d5b-c207-4f48-aa43-4274d82b1d3b",
+  "name": "RISA Data-Editor Tool",
+  "publisher": "RISA Support B.V.",
+  "version": "25.0.0.0",
+  "brief": "",
+  "description": "This tool allows you to edit data in the cloud the same way as with the object designer in NAV.",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "25.0.0.0",
+  "application": "25.0.0.0",
+  "idRanges": [
+    {
+      "from": 81000,
+      "to": 81999
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "14.0",
+  "features": [
+    "NoImplicitWith","TranslationFile"
+  ]
+}
