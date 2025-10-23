@@ -1,8 +1,7 @@
 # Table Data Editor Application for Business Central
 Table Data Editor is an open-source application for Business Central. This application allows you to easily manipulate data in Business Central tables. Table Data Editor is completely free and open-source, distributed under the MIT license. Anyone can contribute or share their ideas for the development of Table Data Editor on GitHub.
 
-https://vld-bc.com/table-data-editor-general
-
+This version is based on https://vld-bc.com/table-data-editor-general with additional data for 4PS Construct.
 
 ![Data Editor](https://static.tildacdn.com/tild3565-3631-4636-b463-303765396635/OpenTable.gif)
 
@@ -10,14 +9,8 @@ https://vld-bc.com/table-data-editor-general
 
 # Tips
 - Type **Data Editor** in the Business Central search to get started.
-- For the extension to work properly you must make sure that your BC user is using the **DET Data Editor Tool** or **SUPER** permission set.
-- For OnPrem you must have a license for objects with id 81000+
+- For the extension to work properly you must make sure that your BC user is using the **RISA Data Editor Tool** or **SUPER** permission set.
 - Project tested and compiled on latest Cloud BC version.
-- Branch for older versions BC 18+ https://github.com/Drakonian/data-editor-for-bc/tree/BC18-19-20-21-22-23
-
-# How to Install a Per Tenant Extension (.app file) in Business Central
-
-This guide provides step-by-step instructions for installing a Per Tenant Extension (PTE) `.app` file in Microsoft Dynamics 365 Business Central via the Extension Management page.
 
 ## Prerequisites
 
