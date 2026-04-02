@@ -1,3 +1,5 @@
+namespace RISA.DataEditorTools.DataEditor;
+
 table 81003 "RISA DET Query Preset"
 {
     Caption = 'Preset';

@@ -1,3 +1,5 @@
+namespace RISA.DataEditorTools.DataEditor;
+
 page 81011 "RISA DET Import/Export Dialog"
 {
     ApplicationArea = All;

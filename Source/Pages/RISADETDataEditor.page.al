@@ -1,3 +1,8 @@
+namespace RISA.DataEditorTools.DataEditor;
+
+using RISA.DataEditorTools;
+using System.Reflection;
+    
 page 81001 "RISA DET Data Editor"
 {
     Caption = 'Data Editor';

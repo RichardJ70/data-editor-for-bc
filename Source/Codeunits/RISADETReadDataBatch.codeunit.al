@@ -1,3 +1,8 @@
+namespace RISA.DataEditorTools.DataEditor;
+using RISA.DataEditorTools;
+using System.IO;
+using System.Utilities;
+    
 codeunit 81002 "RISA DET Read Data Batch"
 {
     TableNo = "RISA DET Data Editor Buffer";

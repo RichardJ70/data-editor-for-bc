@@ -1,3 +1,5 @@
+namespace RISA.DataEditorTools.DataEditor;
+
 table 81006 "RISA DET Binary Data Buffer"
 {
     Caption = 'Binary Data Buffer';

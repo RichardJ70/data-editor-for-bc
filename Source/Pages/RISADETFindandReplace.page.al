@@ -1,3 +1,8 @@
+namespace RISA.DataEditorTools.DataEditor;
+
+using Microsoft.Utilities;
+using RISA.DataEditorTools;
+
 page 81007 "RISA DET Find and Replace"
 {
     ApplicationArea = All;

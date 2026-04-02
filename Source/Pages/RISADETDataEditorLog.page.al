@@ -1,3 +1,5 @@
+namespace RISA.DataEditorTools.DataEditor;
+
 page 81010 "RISA DET Data Editor Log"
 {
     ApplicationArea = All;

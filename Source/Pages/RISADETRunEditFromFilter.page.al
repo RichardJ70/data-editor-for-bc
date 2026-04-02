@@ -1,3 +1,7 @@
+namespace RISA.DataEditorTools.DataEditor;
+
+using RISA.DataEditorTools;
+    
 page 81003 "RISA DET Run Edit From Filter"
 {
     //Used for call Data Editor directly without Dialog window

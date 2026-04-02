@@ -1,3 +1,7 @@
+namespace RISA.DataEditorTools.DataEditor;
+
+using System.Reflection;
+    
 page 81006 "RISA DET Key"
 {
     ApplicationArea = All;

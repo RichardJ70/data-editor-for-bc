@@ -1,3 +1,10 @@
+namespace RISA.DataEditorTools.DataEditor;
+
+using System.Reflection;
+using System.Security.AccessControl;
+using System.Utilities;
+
+
 table 81005 "RISA DET Data Editor Log"
 {
     Caption = 'Data Editor Log';

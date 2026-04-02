@@ -1,3 +1,7 @@
+namespace RISA.DataEditorTools.DataEditor;
+
+using RISA.DataEditorTools;
+    
 permissionset 81000 "RISA Data Edit Tool"
 {
     Assignable = true;

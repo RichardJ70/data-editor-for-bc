@@ -1,3 +1,5 @@
+namespace RISA.DataEditorTools.DataEditor;
+
 page 81008 "RISA DET Query Preset"
 {
     ApplicationArea = All;

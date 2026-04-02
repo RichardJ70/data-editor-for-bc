@@ -1,3 +1,5 @@
+namespace RISA.DataEditorTools.DataEditor;
+
 enum 81001 "RISA DET Import On Find"
 {
     Extensible = true;

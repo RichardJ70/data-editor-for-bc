@@ -1,3 +1,5 @@
+namespace RISA.DataEditorTools.DataEditor;
+
 enum 81002 "RISA DET File Format"
 {
     Extensible = true;

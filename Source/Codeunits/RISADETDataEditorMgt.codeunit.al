@@ -1,9 +1,42 @@
+namespace RISA.DataEditorTools.DataEditor;
+
+using Microsoft.Bank.Check;
+using Microsoft.Bank.Ledger;
+using Microsoft.Finance.VAT.Ledger;
+using Microsoft.FixedAssets.Insurance;
+using Microsoft.FixedAssets.Ledger;
+using Microsoft.FixedAssets.Maintenance;
+using Microsoft.HumanResources.Payables;
+using Microsoft.Inventory.History;
+using Microsoft.Inventory.Ledger;
+using Microsoft.Manufacturing.Capacity;
+using Microsoft.Projects.Project.Ledger;
+using Microsoft.Purchases.Archive;
+using Microsoft.Purchases.History;
+using Microsoft.Purchases.Payables;
+using Microsoft.Sales.Archive;
+using Microsoft.Sales.FinanceCharge;
+using Microsoft.Sales.History;
+using Microsoft.Sales.Receivables;
+using Microsoft.Sales.Reminder;
+using Microsoft.Service.Ledger;
+using Microsoft.Utilities;
+using Microsoft.Warehouse.Ledger;
+using System.Automation;
+using System.Environment;
+using System.IO;
+using System.Reflection;
+using System.Security.AccessControl;
+using System.Security.User;
+using System.Text;
+using System.Utilities;
+
 codeunit 81001 "RISA DET Data Editor Mgt."
 {
     Permissions = tabledata "Vendor Ledger Entry" = RMID, tabledata "FA Ledger Entry" = RMID, tabledata "Job Ledger Entry" = RMID, tabledata "Item Ledger Entry" = RMID,
-     tabledata "Check Ledger Entry" = RMID, tabledata "Cust. Ledger Entry" = RMID, tabledata "Service Ledger Entry" = RMID,
+     tabledata "Check Ledger Entry" = RMID, tabledata "Cust. Ledger Entry" = RMID, tabledata "Service Ledger Entry" = RMID, tabledata "Service-Ledger Entry" = RMID,
      tabledata "Capacity Ledger Entry" = RMID, tabledata "Employee Ledger Entry" = RMID, tabledata "Maintenance Ledger Entry" = RMID,
-     tabledata "Bank Account Ledger Entry" = RMID, tabledata "Ins. Coverage Ledger Entry" = RMID, tabledata "Payable Vendor Ledger Entry" = RMID, tabledata "Payable Employee Ledger Entry" = RMID, 
+     tabledata "Bank Account Ledger Entry" = RMID, tabledata "Ins. Coverage Ledger Entry" = RMID, tabledata "Payable Vendor Ledger Entry" = RMID, tabledata "Payable Employee Ledger Entry" = RMID,
      tabledata "Detailed Employee Ledger Entry" = RMID, tabledata "Detailed Cust. Ledg. Entry" = RMID, tabledata "Detailed Vendor Ledg. Entry" = RMID,
      tabledata "Sales Invoice Header" = RMID, tabledata "Sales Invoice Line" = RMID, tabledata "Sales Shipment Header" = RMID, tabledata "Sales Shipment Line" = RMID,
      tabledata "Sales Cr.Memo Header" = RMID, tabledata "Sales Cr.Memo Line" = RMID, tabledata "Purch. Cr. Memo Hdr." = RMID, tabledata "Purch. Cr. Memo Line" = RMID,
@@ -11,9 +44,9 @@ codeunit 81001 "RISA DET Data Editor Mgt."
      tabledata "Purchase Header Archive" = RMID, tabledata "Sales Line Archive" = RMID, tabledata "Sales Header Archive" = RMID, tabledata "Purchase Line Archive" = RMID,
      tabledata "Sales Comment Line Archive" = RMID, tabledata "Purch. Comment Line Archive" = RMID, tabledata "Workflow Step Argument Archive" = RMID, tabledata "Workflow Record Change Archive" = RMID,
      tabledata "Workflow Step Instance Archive" = RMID, tabledata "Approval Entry" = RMID, tabledata "Warehouse Entry" = RMID,
-     tabledata "Value Entry" = RMID, tabledata "Item Register" = RMID, tabledata "Vat Entry" = RMID, tableData "Issued Reminder Header" = RMID, 
-     tableData "Issued Fin. Charge Memo Header" = RMID, tabledata "G/L Entry - VAT Entry Link" = RMID, tabledata "Item Application Entry" = RMID, 
-     tabledata "Item Application Entry History" = RMID, tabledata "Return Shipment Header" = RMID, tabledata "Return Shipment Line" = RMID, tabledata "Return Receipt Header" = RMID, 
+     tabledata "Value Entry" = RMID, tabledata "Item Register" = RMID, tabledata "Vat Entry" = RMID, tableData "Issued Reminder Header" = RMID,
+     tableData "Issued Fin. Charge Memo Header" = RMID, tabledata "G/L Entry - VAT Entry Link" = RMID, tabledata "Item Application Entry" = RMID,
+     tabledata "Item Application Entry History" = RMID, tabledata "Return Shipment Header" = RMID, tabledata "Return Shipment Line" = RMID, tabledata "Return Receipt Header" = RMID,
      tabledata "Return Receipt Line" = RMID, tabledata "Invt. Receipt Header" = RMID, tabledata "Invt. Receipt Line" = RMID, tabledata "Invt. Shipment Header" = RMID, tabledata "Invt. Shipment Line" = RMID,
      tabledata "Access Control" = RMID, tabledata "User Setup" = RMID;
 

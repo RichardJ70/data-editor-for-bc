@@ -1,3 +1,7 @@
+namespace RISA.DataEditorTools.DataEditor;
+
+using System.Reflection;
+    
 page 81002 "RISA DET Edit Value"
 {
 

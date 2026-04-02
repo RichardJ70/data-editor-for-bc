@@ -1,3 +1,6 @@
+namespace RISA.DataEditorTools.DataEditor;
+using System.Apps;
+
 table 81001 "RISA DET Field"
 {
     Caption = 'Field';

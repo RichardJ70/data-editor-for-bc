@@ -1,3 +1,38 @@
+namespace RISA.DataEditorTools.DataEditor;
+
+using Microsoft.Bank.Check;
+using Microsoft.Bank.Ledger;
+using Microsoft.Finance.Dimension;
+using Microsoft.Finance.VAT.Ledger;
+using Microsoft.FixedAssets.Insurance;
+using Microsoft.FixedAssets.Ledger;
+using Microsoft.FixedAssets.Maintenance;
+using Microsoft.HumanResources.Payables;
+using Microsoft.Inventory.Counting.History;
+using Microsoft.Inventory.Counting.Journal;
+using Microsoft.Inventory.History;
+using Microsoft.Inventory.Ledger;
+using Microsoft.Manufacturing.Capacity;
+using Microsoft.Projects.Project.Ledger;
+using Microsoft.Projects.Resources.Ledger;
+using Microsoft.Purchases.Archive;
+using Microsoft.Purchases.History;
+using Microsoft.Purchases.Payables;
+using Microsoft.Sales.Archive;
+using Microsoft.Sales.FinanceCharge;
+using Microsoft.Sales.History;
+using Microsoft.Sales.Receivables;
+using Microsoft.Sales.Reminder;
+using Microsoft.Service.History;
+using Microsoft.Service.Ledger;
+using Microsoft.Utilities;
+using Microsoft.Warehouse.Ledger;
+using RISA.DataEditorTools;
+using System.Automation;
+using System.Reflection;
+using System.Security.AccessControl;
+using System.Security.User;
+
 page 81004 "RISA DET Insert New Record"
 {
     Caption = 'Insert New Record';

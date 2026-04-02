@@ -1,3 +1,8 @@
+namespace RISA.DataEditorTools.DataEditor;
+
+using Microsoft.Purchases.Document;
+using Microsoft.Sales.Document;
+
 codeunit 81000 "RISA DET Single Inst. Storage"
 {
     SingleInstance = true;

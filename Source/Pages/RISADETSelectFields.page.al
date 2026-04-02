@@ -1,3 +1,8 @@
+namespace RISA.DataEditorTools.DataEditor;
+
+using System.Reflection;
+using System.Text;
+    
 page 81005 "RISA DET Select Fields"
 {
     Caption = 'Select Fields';

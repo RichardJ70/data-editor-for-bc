@@ -1,3 +1,5 @@
+namespace RISA.DataEditorTools.DataEditor;
+
 enum 81000 "RISA DET Log Action Type"
 {
     Extensible = true;

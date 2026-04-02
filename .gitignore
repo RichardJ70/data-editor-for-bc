@@ -12,3 +12,4 @@ rad.json
 .snapshots/
 cache_*
 ~$*
+.vscode/

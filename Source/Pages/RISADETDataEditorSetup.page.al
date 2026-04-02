@@ -1,3 +1,5 @@
+namespace RISA.DataEditorTools.DataEditor;
+
 page 81009 "RISA DET Data Editor Setup"
 {
     ApplicationArea = All;
