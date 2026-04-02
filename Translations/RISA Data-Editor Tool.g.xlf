@@ -2293,6 +2293,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page RISA DET Data Editor - Property AdditionalSearchTerms</note>
         </trans-unit>
+        <trans-unit id="Page 2414042615 - NamedType 2709378628" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must have SUPER permissions to use the Data Editor.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page RISA DET Data Editor - NamedType UserMustHaveSuperPermissionsErr</note>
+        </trans-unit>
         <trans-unit id="Page 2414042615 - Method 2632236985 - NamedType 2248625104" size-unit="char" translate="yes" xml:space="preserve">
           <source>Preset name can not be empty.</source>
           <note from="Developer" annotates="general" priority="2"></note>

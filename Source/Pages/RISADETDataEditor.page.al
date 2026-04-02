@@ -2,7 +2,8 @@ namespace RISA.DataEditorTools.DataEditor;
 
 using RISA.DataEditorTools;
 using System.Reflection;
-    
+using System.Security.User;
+
 page 81001 "RISA DET Data Editor"
 {
     Caption = 'Data Editor';
@@ -176,7 +177,12 @@ page 81001 "RISA DET Data Editor"
     }
 
     trigger OnOpenPage()
+    var
+        UserPermissions: Codeunit "User Permissions";
     begin
+        if not UserPermissions.IsSuper(UserSecurityId()) and not UserPermissions.CanManageUsersOnTenant(UserSecurityId()) then
+            Error(this.UserMustHaveSuperPermissionsErr);
+
         ExcludeFlowFields := true; //much better for performance
     end;
 
@@ -348,6 +354,7 @@ page 81001 "RISA DET Data Editor"
     end;
 
     var
+        UserMustHaveSuperPermissionsErr: Label 'You must have SUPER permissions to use the Data Editor.';
         WithoutValidation: Boolean;
         ExcludeFlowFields: Boolean;
         ReadInParallel: Boolean;
