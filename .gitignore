@@ -13,3 +13,4 @@ rad.json
 cache_*
 ~$*
 .vscode/
+*.app
