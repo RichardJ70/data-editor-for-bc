@@ -9,6 +9,7 @@ This version is based on https://vld-bc.com/table-data-editor-general with addit
 
 # Tips
 - Type **Data Editor** in the Business Central search to get started.
+- The Data Editor page requires the active user to have **SUPER** permissions or be a **Delegated Admin**. Users without either of these roles will be blocked from opening the page.
 - For the extension to work properly you must make sure that your BC user is using the **RISA Data Editor Tool** or **SUPER** permission set.
 - Project tested and compiled on latest Cloud BC version.
 
