@@ -35,5 +35,9 @@
   "runtime": "16.0",
   "features": [
     "NoImplicitWith","TranslationFile"
-  ]
+  ],
+  "build": {
+      "by": "RISA Support B.V.", 
+      "url": "https://github.com/RichardJ70/data-editor-for-bc"
+  }
 }
