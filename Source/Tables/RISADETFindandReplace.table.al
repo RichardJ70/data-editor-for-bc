@@ -1,6 +1,6 @@
 namespace RISA.DataEditorTools.DataEditor;
 
-table 81002 "RISA DET Find and Replace"
+table 50302 "RISA DET Find and Replace"
 {
     Caption = 'Find and Replace';
     DataClassification = CustomerContent;

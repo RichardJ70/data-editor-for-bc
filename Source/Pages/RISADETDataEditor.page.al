@@ -4,7 +4,7 @@ using RISA.DataEditorTools;
 using System.Reflection;
 using System.Security.User;
 
-page 81001 "RISA DET Data Editor"
+page 50301 "RISA DET Data Editor"
 {
     Caption = 'Data Editor';
     PageType = StandardDialog;

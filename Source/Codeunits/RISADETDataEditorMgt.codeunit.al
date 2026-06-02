@@ -31,7 +31,7 @@ using System.Security.User;
 using System.Text;
 using System.Utilities;
 
-codeunit 81001 "RISA DET Data Editor Mgt."
+codeunit 50301 "RISA DET Data Editor Mgt."
 {
     Permissions = tabledata "Vendor Ledger Entry" = RMID, tabledata "FA Ledger Entry" = RMID, tabledata "Job Ledger Entry" = RMID, tabledata "Item Ledger Entry" = RMID,
      tabledata "Check Ledger Entry" = RMID, tabledata "Cust. Ledger Entry" = RMID, tabledata "Service Ledger Entry" = RMID, tabledata "Service-Ledger Entry" = RMID,

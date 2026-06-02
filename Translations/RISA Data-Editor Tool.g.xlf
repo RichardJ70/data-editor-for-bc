@@ -5118,6 +5118,76 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page RISA DET Select Fields - Action Set Included - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 653462822 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clear Company</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report RISA DET Clear Company - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 653462822 - NamedType 1736824903" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You are about to delete all records from %1 tables (type Transaction and Not Applicable) in Implementation Company %2 / %3.\\This action cannot be undone.\\Are you sure you want to continue?</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Number of tables, %2 = Database Abbreviation, %3 = Company Abbreviation</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report RISA DET Clear Company - NamedType ConfirmDeleteDataQst</note>
+        </trans-unit>
+        <trans-unit id="Report 653462822 - NamedType 2106758149" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must specify an Implementation Company (Database Abbreviation and Company Abbreviation) before running this report.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report RISA DET Clear Company - NamedType ImplCompanyRequiredErr</note>
+        </trans-unit>
+        <trans-unit id="Report 653462822 - NamedType 1577146368" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must deactivate all Retention Policies before running this report.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report RISA DET Clear Company - NamedType RetentionPoliciesExistErr</note>
+        </trans-unit>
+        <trans-unit id="Report 653462822 - NamedType 1926357663" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must have SUPER permissions to run this report.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report RISA DET Clear Company - NamedType SuperPermissionsRequiredErr</note>
+        </trans-unit>
+        <trans-unit id="Report 653462822 - Control 2957453998 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows the company that will be cleared.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report RISA DET Clear Company - Control CompanyNameField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 653462822 - Control 2957453998 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clear Company for Current Company</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report RISA DET Clear Company - Control CompanyNameField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 653462822 - Control 4203909460 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Implementation Company</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report RISA DET Clear Company - Control ImplCompanyGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 653462822 - Control 4268971187 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Implementation Company abbreviation.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report RISA DET Clear Company - Control CompanyAbbreviationField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 653462822 - Control 4268971187 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Company Abbreviation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report RISA DET Clear Company - Control CompanyAbbreviationField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 653462822 - Control 1576327997 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Implementation Company database abbreviation used to determine which tables to clear.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report RISA DET Clear Company - Control DatabaseAbbreviationField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 653462822 - Control 1576327997 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Database Abbreviation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report RISA DET Clear Company - Control DatabaseAbbreviationField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1204100546 - Action 2637983822 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 853948096">
+          <source>Clears all transactional data from the company based on the Implementation Company table definitions.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension RISA DET Impl.Proc.Ctrl.Main - Action RISADETClearCompany - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1204100546 - Action 2637983822 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 853948096">
+          <source>Clear Company</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension RISA DET Impl.Proc.Ctrl.Main - Action RISADETClearCompany - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Enum 3585491323 - EnumValue 1819335129 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Excel</source>
           <note from="Developer" annotates="general" priority="2"></note>

@@ -3,7 +3,7 @@ namespace RISA.DataEditorTools.DataEditor;
 using Microsoft.Utilities;
 using RISA.DataEditorTools;
 
-page 81007 "RISA DET Find and Replace"
+page 50307 "RISA DET Find and Replace"
 {
     ApplicationArea = All;
     Caption = 'Find and Replace';

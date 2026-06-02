@@ -1,6 +1,6 @@
 namespace RISA.DataEditorTools.DataEditor;
 
-table 81000 "RISA DET Data Editor Buffer"
+table 50300 "RISA DET Data Editor Buffer"
 {
     Caption = 'Data Editor Buffer';
     DataClassification = CustomerContent;

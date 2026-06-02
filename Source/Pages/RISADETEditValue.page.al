@@ -1,8 +1,8 @@
 namespace RISA.DataEditorTools.DataEditor;
 
 using System.Reflection;
-    
-page 81002 "RISA DET Edit Value"
+
+page 50302 "RISA DET Edit Value"
 {
 
     Caption = 'Edit Value';

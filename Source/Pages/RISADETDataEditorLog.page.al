@@ -1,6 +1,6 @@
 namespace RISA.DataEditorTools.DataEditor;
 
-page 81010 "RISA DET Data Editor Log"
+page 50310 "RISA DET Data Editor Log"
 {
     ApplicationArea = All;
     Caption = 'Data Editor Log';

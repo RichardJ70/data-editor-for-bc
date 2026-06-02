@@ -1,8 +1,8 @@
 namespace RISA.DataEditorTools.DataEditor;
 
 using System.Reflection;
-    
-page 81006 "RISA DET Key"
+
+page 50306 "RISA DET Key"
 {
     ApplicationArea = All;
     Caption = 'Key';

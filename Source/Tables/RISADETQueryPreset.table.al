@@ -1,6 +1,6 @@
 namespace RISA.DataEditorTools.DataEditor;
 
-table 81003 "RISA DET Query Preset"
+table 50303 "RISA DET Query Preset"
 {
     Caption = 'Preset';
     DataClassification = CustomerContent;
