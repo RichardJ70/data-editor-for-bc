@@ -5133,10 +5133,25 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report RISA DET Clear Company - NamedType ImplCompanyRequiredErr</note>
         </trans-unit>
+        <trans-unit id="Report 653462822 - NamedType 2736548439" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All selected tables were cleared successfully. No tables were skipped.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report RISA DET Clear Company - NamedType NoTablesSkippedMsg</note>
+        </trans-unit>
+        <trans-unit id="Report 653462822 - NamedType 347161013" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This report deletes company data and can only be run in a sandbox environment. It must never be run in a production environment.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report RISA DET Clear Company - NamedType ProductionNotAllowedErr</note>
+        </trans-unit>
         <trans-unit id="Report 653462822 - NamedType 1577146368" size-unit="char" translate="yes" xml:space="preserve">
           <source>You must deactivate all Retention Policies before running this report.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report RISA DET Clear Company - NamedType RetentionPoliciesExistErr</note>
+        </trans-unit>
+        <trans-unit id="Report 653462822 - NamedType 1532703852" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table %1 (%2) could not be cleared and was skipped: %3</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Table ID, %2 = Table Caption, %3 = Error reason</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report RISA DET Clear Company - NamedType SkippedTableLineTok</note>
         </trans-unit>
         <trans-unit id="Report 653462822 - NamedType 1926357663" size-unit="char" translate="yes" xml:space="preserve">
           <source>You must have SUPER permissions to run this report.</source>
@@ -5152,6 +5167,16 @@
           <source>Clear Company for Current Company</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report RISA DET Clear Company - Control CompanyNameField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 653462822 - Control 739679660 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether data in global tables (DataPerCompany = false) should also be deleted. Use with care: this data is shared across all companies in the database, so deleting it affects every company.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report RISA DET Clear Company - Control DeleteGlobalDataField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 653462822 - Control 739679660 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Also delete data in global tables</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report RISA DET Clear Company - Control DeleteGlobalDataField - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 653462822 - Control 4203909460 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Implementation Company</source>
