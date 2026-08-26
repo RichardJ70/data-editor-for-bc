@@ -1,6 +1,6 @@
 namespace RISA.DataEditorTools.DataEditor;
 
-table 50306 "RISA DET Binary Data Buffer"
+table 50406 "RISA DET Binary Data Buffer"
 {
     Caption = 'Binary Data Buffer';
     DataClassification = CustomerContent;

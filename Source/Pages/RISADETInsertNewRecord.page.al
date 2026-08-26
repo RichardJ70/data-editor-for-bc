@@ -33,7 +33,7 @@ using System.Reflection;
 using System.Security.AccessControl;
 using System.Security.User;
 
-page 50304 "RISA DET Insert New Record"
+page 50404 "RISA DET Insert New Record"
 {
     Caption = 'Insert New Record';
     PageType = StandardDialog;

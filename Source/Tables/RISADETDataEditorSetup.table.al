@@ -2,7 +2,7 @@ namespace RISA.DataEditorTools.DataEditor;
 
 using RISA.DataEditorTools;
 
-table 50304 "RISA DET Data Editor Setup"
+table 50404 "RISA DET Data Editor Setup"
 {
     Caption = 'Data Editor Setup';
     DataClassification = CustomerContent;

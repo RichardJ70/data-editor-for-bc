@@ -5,7 +5,7 @@ using System.Security.AccessControl;
 using System.Utilities;
 
 
-table 50305 "RISA DET Data Editor Log"
+table 50405 "RISA DET Data Editor Log"
 {
     Caption = 'Data Editor Log';
     DataClassification = CustomerContent;

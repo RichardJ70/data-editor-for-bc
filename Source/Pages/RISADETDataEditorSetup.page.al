@@ -1,6 +1,6 @@
 namespace RISA.DataEditorTools.DataEditor;
 
-page 50309 "RISA DET Data Editor Setup"
+page 50409 "RISA DET Data Editor Setup"
 {
     ApplicationArea = All;
     Caption = 'Data Editor Setup';

@@ -2,11 +2,11 @@ namespace RISA.DataEditorTools.DataEditor;
 
 using RISA.DataEditorTools;
 
-page 50303 "RISA DET Run Edit From Filter"
+page 50403 "RISA DET Run Edit From Filter"
 {
     //Used for call Data Editor directly without Dialog window
     //Example of usage call page via link: 
-    //&page=50303&filter='Table Number' is '18' and 'Exclude FlowFields' is '1' and 'Without Validate' is '0'
+    //&page=50403&filter='Table Number' is '18' and 'Exclude FlowFields' is '1' and 'Without Validate' is '0'
     Caption = 'Close Me';
     PageType = ConfirmationDialog;
     SourceTable = "RISA DET Data Editor Buffer";

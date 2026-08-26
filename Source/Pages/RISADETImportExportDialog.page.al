@@ -1,6 +1,6 @@
 namespace RISA.DataEditorTools.DataEditor;
 
-page 50311 "RISA DET Import/Export Dialog"
+page 50411 "RISA DET Import/Export Dialog"
 {
     ApplicationArea = All;
     Caption = 'Import/Export Dialog';

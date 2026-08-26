@@ -2,7 +2,7 @@ namespace RISA.DataEditorTools.DataEditor;
 
 using RISA.DataEditorTools;
 
-permissionset 50300 "RISA Data Edit Tool"
+permissionset 50400 "RISA Data Edit Tool"
 {
     Assignable = true;
     Caption = 'Data Editor Tool';

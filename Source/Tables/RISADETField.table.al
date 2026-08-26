@@ -1,7 +1,7 @@
 namespace RISA.DataEditorTools.DataEditor;
 using System.Apps;
 
-table 50301 "RISA DET Field"
+table 50401 "RISA DET Field"
 {
     Caption = 'Field';
     DataClassification = CustomerContent;

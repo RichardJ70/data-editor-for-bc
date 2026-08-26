@@ -1,6 +1,6 @@
 namespace RISA.DataEditorTools.DataEditor;
 
-page 50308 "RISA DET Query Preset"
+page 50408 "RISA DET Query Preset"
 {
     ApplicationArea = All;
     Caption = 'Data Editor Preset';

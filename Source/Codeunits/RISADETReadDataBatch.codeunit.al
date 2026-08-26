@@ -3,7 +3,7 @@ using RISA.DataEditorTools;
 using System.IO;
 using System.Utilities;
 
-codeunit 50302 "RISA DET Read Data Batch"
+codeunit 50402 "RISA DET Read Data Batch"
 {
     TableNo = "RISA DET Data Editor Buffer";
 

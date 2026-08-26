@@ -37,7 +37,7 @@ using System.Security.User;
 using System.Text;
 using System.Utilities;
 
-page 50300 "RISA DET Data Editor Buffer"
+page 50400 "RISA DET Data Editor Buffer"
 {
 
     Caption = 'Data Editor Buffer';

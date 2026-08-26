@@ -76,7 +76,7 @@ using System.Security.User;
 using System.Threading;
 using System.Utilities;
 
-report 50300 "RISA DET Clear Company"
+report 50400 "RISA DET Clear Company"
 {
     Caption = 'Clear Company';
     ProcessingOnly = true;
