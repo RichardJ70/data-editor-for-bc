@@ -2,7 +2,7 @@
   "id": "9b020d5b-c207-4f48-aa43-4274d82b1d3b",
   "name": "RISA Data-Editor Tool",
   "publisher": "RISA Support B.V.",
-  "version": "27.5.260826.0",
+  "version": "28.1.261012.0",
   "brief": "",
   "description": "This tool allows you to edit data in the cloud the same way as with the object designer in NAV.",
   "privacyStatement": "",
@@ -15,18 +15,18 @@
       "id": "d809cdc6-44fd-485c-b9ed-2841276bbf32",
       "name": "4PS Construct NL",
       "publisher": "4PS B.V.",
-      "version": "27.1.0.0"
+      "version": "28.0.0.0"
     },
     {
       "id": "247e12d4-2649-4390-8349-240a67f10aa5",
       "name": "4PS Base Application W1",
       "publisher": "4PS B.V.",
-      "version": "27.1.0.0"
+      "version": "28.0.0.0"
     }
   ],
   "screenshots": [],
-  "platform": "27.0.0.0",
-  "application": "27.0.0.0",
+  "platform": "28.0.0.0",
+  "application": "28.0.0.0",
   "idRanges": [
     {
       "from": 50400,
@@ -38,7 +38,7 @@
     "allowDownloadingSource": false,
     "includeSourceInSymbolFile": false
   },
-  "runtime": "16.0",
+  "runtime": "17.0",
   "features": [
     "NoImplicitWith","TranslationFile"
   ],

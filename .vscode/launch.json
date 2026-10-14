@@ -2,11 +2,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Upgrade",
+            "name": "Test2026-3",
             "request": "launch",
             "type": "al",
             "environmentType": "Sandbox",
-            "environmentName": "Upgrade",
+            "environmentName": "Test2026-3",
             "applicationFamily": "4PSConstruct",
             "startupObjectId": 22,
             "startupObjectType": "Page",
