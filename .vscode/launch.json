@@ -2,11 +2,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Test2026-3",
+            "name": "Sandbox4PSNL",
             "request": "launch",
             "type": "al",
             "environmentType": "Sandbox",
-            "environmentName": "Test2026-3",
+            "environmentName": "Sandbox4PSNL",
             "applicationFamily": "4PSConstruct",
             "startupObjectId": 22,
             "startupObjectType": "Page",
